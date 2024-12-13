@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Speed Game</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your enhanced CSS file -->
+</head>
+<body>
+
+  <div class="container">
+    <h1>Typing Speed Test</h1>
+    
+    <div id="quote" class="quote">
+      <!-- Random quote will be displayed here -->
+      Click "Start" to begin!
+    </div>
+    
+    <textarea id="textarea" placeholder="Start typing here..." disabled></textarea>
+    
+    <button id="start-btn">Start</button>
+    
+    <div id="results">
+      <!-- Results will appear here after typing is completed -->
+      <p>Time: <span id="time">0</span>s</p>
+      <p>Words: <span id="words">0</span></p>
+      <p>Speed: <span id="speed">0</span> WPM</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- Link to your enhanced JavaScript file -->
+
+</body>
+</html>
+
