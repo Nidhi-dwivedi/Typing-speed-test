@@ -12,9 +12,9 @@ A simple and interactive typing speed game built with **HTML**, **CSS**, and **J
 - Live feedback as you type.
 - Minimal and responsive UI with an aesthetic design.
 
-## Demo
+## Demo 
+https://effulgent-puffpuff-860d28.netlify.app/
 
-![Typing Speed Game Screenshot](path/to/screenshot.png)
 
 ## How to Play
 
@@ -33,4 +33,18 @@ A simple and interactive typing speed game built with **HTML**, **CSS**, and **J
 
 1. Clone the repository:
    ```bash
+https://github.com/Nidhi-dwivedi/Typing-speed-test.git
+
+2. Navigate to project Directory
+cd Typing-speed-game
+
+3. Open index.html in your browser to play the game:
+
+
+File Structure
+typing-speed-game/
+├── index.html       # Main HTML file
+├── styles.css       # CSS for styling
+├── script.js        # JavaScript for game logic
+└── README.md        # Project documentation
 
